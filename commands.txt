@@ -31,8 +31,20 @@ touch runtime-rating.qmd
 touch bond.qmd
 
 #task 10 (had to activate the right conda environment)
-quarto render
 conda activate datasci
 quarto render
 ls _freeze
+git add .
+git commit -m "Add site pages and freeze"
+git status
+
+#task 11
+git push
+quarto publish gh-pages
+
+#Publishing route: I used quarto publish gh-pages to publish from the gh-pages branch.
+
+git add .
+git commit -m "Record GitHub Pages publishing"
+git push
 
