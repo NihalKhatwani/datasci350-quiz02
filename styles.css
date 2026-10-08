@@ -1,9 +1,5 @@
-/* css styles */
-@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@400;700&display=swap');
-
-body, h1, h2, h3, h4, h5, h6,
-.navbar-title, code, pre {
-  font-family: "Cascadia Code", monospace;
+body, h1, h2, h3, h4, h5, h6, .navbar-title {
+  font-family: Georgia, "Times New Roman", serif;
 }
 
 body {
