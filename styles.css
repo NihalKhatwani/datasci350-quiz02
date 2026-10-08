@@ -1,1 +1,19 @@
 /* css styles */
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@400;700&display=swap');
+
+body, h1, h2, h3, h4, h5, h6,
+.navbar-title, code, pre {
+  font-family: "Cascadia Code", monospace;
+}
+
+body {
+  font-size: 18px;
+}
+
+main a {
+  color: #9c3b10;
+}
+
+body.quarto-dark main a {
+  color: #ffbd8a;
+}
