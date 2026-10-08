@@ -1,0 +1,12 @@
+{
+  "hash": "97eb57b1a3988d06e48365447278c964",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Box Office Numbers\"\n---\n\n\n\nThis website explores a dataset of 104 well-known films released between 1980 and 2025. The dataset includes film titles, release years, franchises, production budgets, worldwide revenues, runtimes, and IMDb ratings. Budgets and revenues are approximate, measured in millions of US dollars, and not adjusted for inflation.\n\nExplore the analysis pages:\n\n- [Budget and Revenue](budget-revenue.qmd)\n- [Runtime and Ratings](runtime-rating.qmd)\n- [The Bond Films](bond.qmd)\n\nAI usage: I used ChatGPT for help with terminal commands, Quarto configuration, and drafting website content.\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

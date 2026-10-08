@@ -1,0 +1,38 @@
+
+#before task 1
+touch commands.txt
+
+#task 1
+quarto create project website .
+
+#task 2 (added the two lines by editing in nano)
+ls -a
+nano .gitignore
+git add .gitignore
+git commit -m "Add git ignore"
+git status
+
+#task 3 edited in VS code
+
+#task 4 (then edited the _quarto.yml file in VS code
+rm about.qmd
+
+#task 5 (changed theme to cerulean in _quarto.yml in VS code)
+
+#task 6 (edited index.qmd info in VS code)
+
+#task 7 
+touch budget-revenue.qmd
+
+#task 8 
+touch runtime-rating.qmd
+
+#task 9
+touch bond.qmd
+
+#task 10 (had to activate the right conda environment)
+quarto render
+conda activate datasci
+quarto render
+ls _freeze
+

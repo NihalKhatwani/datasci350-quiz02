@@ -1,0 +1,12 @@
+{
+  "hash": "f22a87695f0daa4ba413b51cd95bcb34",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Budget and Revenue\"\n---\n\n::: {#d6253d69 .cell execution_count=1}\n``` {.python .cell-code}\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nfilms = pd.read_csv(\"films.csv\")\n```\n:::\n\n\n@fig-budget-revenue compares production budgets with worldwide box-office revenues. Each point represents one film, and both amounts are measured in millions of US dollars.\n\n::: {#cell-fig-budget-revenue .cell execution_count=2}\n``` {.python .cell-code}\nplt.scatter(films[\"budget_musd\"], films[\"revenue_musd\"])\nplt.xlabel(\"Production budget (millions of US dollars)\")\nplt.ylabel(\"Worldwide revenue (millions of US dollars)\")\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![Production budgets and worldwide revenues of films in the dataset.](budget-revenue_files/figure-html/fig-budget-revenue-output-1.png){#fig-budget-revenue width=602 height=431}\n:::\n:::\n\n\n",
+    "supporting": [
+      "budget-revenue_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
