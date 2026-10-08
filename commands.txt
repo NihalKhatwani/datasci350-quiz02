@@ -53,3 +53,12 @@ git push
 git add commands.txt
 git commit -m "Add command log"
 git push origin main
+
+#bonus tasks
+#bonus 1: Edited styles.css to change the font to Georgia and times new roman, set the font size to 18px, and customize link colours.
+#bonus 2: Updated _quarto.yml to use cerulean for light mode and darkly for dark mode, with css: styles.css.
+
+quarto publish gh-pages
+git add .
+git commit -m "bonus: customize site styles and add theme toggle"
+git push origin main
